@@ -8,7 +8,7 @@ router.get("/", (req, res) => {
   res.send("You landed on Products Home");
 });
 router.get("/add", (req, res) =>
-  res.send("<p>You landed on <strong> ADD </strong> Prodcuts</p>")
+  res.send("<p>You landed on <strong> ADD </strong> Products</p>")
 );
 
 router.get("/edit", (req, res) =>
